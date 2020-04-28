@@ -1,28 +1,19 @@
 ### 1. 环境
 
 Python版本: `Python 3.x`
-部署机器: `173.248.234.200`
-代码位置：`/root/CrawlCode`
+mac下面部署
 
-### 2.运行
-
-1. 境变量（已配置）
-```
-export PYTHONPATH="/root/CrawlCode:$PYTHONPATH"
-```
-
-2. 安装依赖包 (已安装)
-```
-pip install -r requirements.txt
-```
-
-3. 运行代码
-```
-cd CrawlCode/Crawler/Instagram/
-python Instagram.py user_name
-```
-
-4. 下载目录
-```
-CrawlCode/Crawler/Instagram/data/user_name/
-```
+1、首先安装python3环境  brew install python3
+2、设置python环境变量 
+    1、用户当前目录下创建.bash_profile目录
+        cd ~
+        sudo su 输入密码
+        touch .bash_profile
+    2、设置python环境变量，python3安装目录。
+        PATH="/usr/local/bin/python3:${PATH}"
+3、将解压后的Instagram文件夹放到当前用户目录下
+4、安装依赖环境
+    将所有需要的依赖放到根目录下
+    pip3 install requests 安装官方依赖（需翻墙）
+5、创建log日志文件夹
+6、运行程序 python3 Instagram.py user_name
