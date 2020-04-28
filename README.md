@@ -17,3 +17,6 @@ mac下面部署
     pip3 install requests 安装官方依赖（需翻墙）
 5、创建log日志文件夹
 6、运行程序 python3 Instagram.py user_name
+
+
+![最终服务器目录是这样的](https://github.com/iduhao/python_ins/blob/master/example.png)
