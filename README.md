@@ -18,5 +18,5 @@ mac下面部署
 5、创建log日志文件夹
 6、运行程序 python3 Instagram.py user_name
 
-
+最终服务器根目录有这些文件，依赖库，py文件，readme。log文件夹
 ![最终服务器目录是这样的](https://github.com/iduhao/python_ins/blob/master/example.png)
